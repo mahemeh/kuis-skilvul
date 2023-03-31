@@ -18,17 +18,17 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     document.getElementById("generateSoal").innerHTML = user
     # menampilkan isi dari variabel user di halaman HTML
 ```
-***Penjelasan***
+### Penjelasan
     - pertama membuat variabel penampung untuk menampung data hasil loopingan kita
     - kemudian melakukan pengulangan dengan for loop
     - logikanya seperti ini 
-      ```
-        - Lakukan pengulangan dari nilai awal 1.
-        - disetiap pengulangan, nilai akan di tambahkan ke dalam variabel tampung.
-        - kemudian berhenti looping jika nilai sudah sama dengan 100 dan menampilkannya di halaman HTML
-        - sekarang value variabel penampung yang sebelumnya string kosong akan menjadi seperti ini
-        "User ke - 1"
-      ```
+        ```
+            - Lakukan pengulangan dari nilai awal 1.
+            - disetiap pengulangan, nilai akan di tambahkan ke dalam variabel tampung.
+            - kemudian berhenti looping jika nilai sudah sama dengan 100 dan menampilkannya di halaman HTML
+            - sekarang value variabel penampung yang sebelumnya string kosong akan menjadi seperti ini
+            "User ke - 1"
+        ```
        *note: penambahan sintaks ``<br>`` ditambahkan agar di html membentuk baris*
 
 # Soal - 2
@@ -51,17 +51,15 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     }
     document.getElementById("generateSoal").innerHTML = hasil
 ```
-
-
-***Penjelasan***
-    - pertama membuat 2 variabel untuk menampung nilai, (pengulangan) untuk jumlah pengulangan dan (hasil) untuk menampung hasil looping yang akan ditampilkan di halaman HTML.
+### Penjelasan
+    - pertama membuat 2 variabel untuk menampung nilai, (pengulangan) untuk jumlah pengulangan dan (hasil) untuk menampung hasil looping yang akan ditampilkan di halaman HTML
     - lakukan pengulangan for loop dengan logika seperti ini:
-    ```
-        - lakukan pengulangan dengan ***nilai awalan 0***.
-        - disetiap pengulangan, variabel *pengulangan* akan bertambah satu (increment)
-        - lalu lakukan penambahan di variabel *hasil* dengan value ***nilai + 2*** ( 0 + 2 *gambarannya seperti ini dan akan bertambah nilai 0 nya disetiap pengulangan*)
-        - sekarang value variabel *hasil* yang sebelumnya string kosong akan menjadi seperti ini 
-        "pengulangan ke - 1 <br> 0 + 2 = 2 <br>"
+         ```
+            - lakukan pengulangan dengan ***nilai awalan 0***
+            - disetiap pengulangan, variabel *pengulangan* akan bertambah satu (increment)
+            - lalu lakukan penambahan di variabel *hasil* dengan value ***nilai + 2*** ( 0 + 2 *gambarannya seperti ini dan akan bertambah nilai 0 nya disetiap pengulangan*)
+            - sekarang value variabel *hasil* yang sebelumnya string kosong akan menjadi seperti ini 
+            "pengulangan ke - 1 <br> 0 + 2 = 2 <br>"
         ```
         *note: penambahan sintaks `<br>` ditambahkan agar di html membentuk baris*
 
@@ -89,14 +87,14 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     }
     document.getElementById("generateSoal").innerHTML = hasil
 ```
-***Penjelasan***
-    - pertama membuat 2 variabel untuk menampung nilai, (pengulangan) untuk jumlah pengulangan dan (hasil) untuk menampung hasil looping yang akan ditampilkan di halaman HTML.
+### Penjelasan
+    - pertama membuat 2 variabel untuk menampung nilai (pengulangan) untuk jumlah pengulangan dan (hasil) untuk menampung nilai hasil looping yang akan ditampilkan di halaman HTML
     - lakukan pengulangan for loop dengan logika seperti ini:
-    ```
-        - lakukan pengulangan dengan ***nilai awalan 0***.
-        - disetiap pengulangan, variabel *pengulangan* akan bertambah satu (increment)
-        - lalu lakukan pengkondisian jika hasil bagi nilai dengan 2 adalah 0 maka akan ditampilkan sebagai Genap selain itu ditampilkan sebagai Ganjil
-    ```
+      ```
+         - lakukan pengulangan dengan ***nilai awalan 0***
+         - disetiap pengulangan, variabel *pengulangan* akan bertambah satu (increment)
+         - lalu lakukan pengkondisian jika hasil bagi nilai dengan 2 adalah 0 maka akan ditampilkan sebagai Genap selain itu ditampilkan sebagai Ganjil
+      ```
     
 # Soal - 4
 ```
@@ -122,14 +120,14 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
         *refresh halaman jika kamu ingin melakukan pengulangan lagi`
     }
 ```
-***Penjelasan***
+### Penjelasan
     - pertama membuat variabel bernama klik dengan nilai 0
     - lakukan pengulangan while loop dengan logika seperti ini:
-    ```
+      ```
         - selama user menjalankan program dan mengklik tombol OK pada confirm window, maka nilai klik akan bertambah satu ()increment
         - jika user mengklik CANCEL pada confirm window maka akan menjalankan kondisi selanjutnya
         - di pengkondisian jika nilai klik masih 0 akan menampilkan *Kamu belum melakukan pengulangan* selain itu maka akan menampilkan hasil dari nilai klik
-    ```
+      ```
     (*note: While loop akan berjalan jika kondisi nya masih belum tercapai, dan jika sudah tercapai maka while akan berhenti melooping dan selesai atau melanjutkan program*)
 
 # Soal - 5
@@ -147,10 +145,9 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
         `).toUpperCase() !== "IMPACT BYTE") {} 
     alert("Selamat jawaban kamu benar")
 ```
-***Penjelasan***
-    ```  
-        - Menggunakan While loop yang kondisinya adalah
-        - jika user tidak mengisi inputan prompt atau salah mengisi prompt maka nilai dari While loop akan menjadi true dan akan terus melakukan pengulangan sampai menghasilkan nilai false
-        - selama user menjalankan program dan mengisi prompt window dengan benar dan sesuai maka akan menampilkan sebuah aler yang bertuliskan "Selamat jawaban kamu benar"
-    ```
+### Penjelasan
+   - Menggunakan While loop yang kondisinya adalah
+   - jika user tidak mengisi inputan prompt atau salah mengisi prompt maka nilai dari While loop akan menjadi true dan akan terus melakukan pengulangan sampai menghasilkan nilai false
+   - selama user menjalankan program dan mengisi prompt window dengan benar dan sesuai maka akan menampilkan sebuah aler yang bertuliskan "Selamat jawaban kamu benar"
+ 
     (*note: While loop akan berjalan jika kondisi nya masih belum tercapai, dan jika sudah tercapai maka while akan berhenti melooping dan selesai atau melanjutkan program*)
