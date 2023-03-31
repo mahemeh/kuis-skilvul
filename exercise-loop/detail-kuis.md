@@ -146,8 +146,9 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     alert("Selamat jawaban kamu benar")
 ```
 ### Penjelasan
-   - Menggunakan While loop yang kondisinya adalah
-   - jika user tidak mengisi inputan prompt atau salah mengisi prompt maka nilai dari While loop akan menjadi true dan akan terus melakukan pengulangan sampai menghasilkan nilai false
-   - selama user menjalankan program dan mengisi prompt window dengan benar dan sesuai maka akan menampilkan sebuah aler yang bertuliskan "Selamat jawaban kamu benar"
- 
+   ```
+      - Menggunakan While loop yang kondisinya adalah
+      - jika user tidak mengisi inputan prompt atau salah mengisi prompt maka nilai dari While loop akan menjadi true dan akan terus melakukan pengulangan sampai menghasilkan nilai false
+      - selama user menjalankan program dan mengisi prompt window dengan benar dan sesuai maka akan menampilkan sebuah aler yang bertuliskan "Selamat jawaban kamu benar"
+   ```
     (*note: While loop akan berjalan jika kondisi nya masih belum tercapai, dan jika sudah tercapai maka while akan berhenti melooping dan selesai atau melanjutkan program*)
