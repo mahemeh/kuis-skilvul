@@ -8,7 +8,7 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     - Buat sebuah program yang menampilkan teks ‘User ke - 1 … User ke - 100’ pada setiap baris di halaman HTML.
     - Lakukan FOR LOOP pada Javascript.
 ``
-``javascript
+``js
     *Jawab :*
     let user = ""
     for (let i = 1; i <= 100; i++) {
@@ -39,7 +39,7 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     - Nilai awal ditambah 2 setiap pengulangan
     - Tampilkan hasil penambahan pada setiap pengulangan
 ``
-``javascript
+``js
     *Jawab :*
     let pengulangan = 0
     let hasil = ""
@@ -69,7 +69,7 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     - Setiap iterasi/pengulangan lakukan pengecekan apakah nilai tersebut ganjil atau genap.
     - Tampilkan keterangan ganjil dan genap pada sebuah nilai setiap pengulangan
 ``
-``javascript
+``js
     *Jawab :*
     let pengulangan = 0;
     let hasil = ""
@@ -103,7 +103,7 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     - Jika user memilih ‘OK’ maka program akan terus menampilan pop up yang sama
     - Jika user memilih ‘Cancel’ maka program akan menampilkan teks ‘Perulangan yang sudah dilakukan sebanyak …(jumlah klik OK yang dilakukan user)
 ``
-``javascript
+``js
     *Jawab :*
     let klik = 0
     while (confirm("Apakah anda mau mengulang")) { 
@@ -139,7 +139,7 @@ Berikut adalah beberapa soal terkait looping dan pengkondisian
     - Jika benar, tampilkan alert ‘Selamat jawaban kamu benar’
     - Jika salah, lakukan pengulangan untuk menampilkan prompt() yg sama hingga jawaban dari user benar
 ``
-``javascript
+``js
     while (prompt(`JAWAB KUIS BERIKUT :
         Sebutkan kepanjangan dari nama IB (Impact Byte)?
         `).toUpperCase() !== "IMPACT BYTE") {} 
